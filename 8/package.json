@@ -1,7 +1,7 @@
 {
-  "name": "7",
+  "name": "8",
   "version": "1.0.0",
-  "description": "node js tut package 7",
+  "description": "node js tut package 8",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "keywords": [
     "nodejs",
     "js",
-    "7"
+    "8"
   ],
   "author": "Valery Blagodarov <11w-walerik@mail.ru>",
   "license": "ISC",
