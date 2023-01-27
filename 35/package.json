@@ -1,0 +1,35 @@
+{
+  "name": "weather-test",
+  "version": "1.0.0",
+  "description": "cli for getting weather",
+  "main": "index.js",
+  "browser": "index.js",
+  "bin": "./index.js",
+  "engines": {
+    "node": ">10"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Valery Blagodarov",
+  "license": "ISC",
+  "homepage": "https://google.by",
+  "repository": {
+    "type": "git",
+    "url": "www.google.by"
+  },
+  "bugs": {
+    "url": "https://google.by",
+    "email": "11w-walerik@mail.ru"
+  },
+  "dependencies": {
+    "axios": "^1.2.5"
+  },
+  "devDependencies": {
+  }
+}
