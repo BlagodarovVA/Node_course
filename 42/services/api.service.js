@@ -9,7 +9,7 @@ const getWeather = async (city) => {
     }
 
     // 2
-    // // http://api.openweathermap.org/data/2.5/weather?q=minsk&appid=3bd8452ed65208cac52baa0a97c6ceef&lang=ru&units=metric
+    // // http://api.openweathermap.org/data/2.5/weather?q=minsk&appid=******apikey*****&lang=ru&units=metric
     const { data } = await axios.get('http://api.openweathermap.org/data/2.5/weather', {
         params: {
             q: city,
