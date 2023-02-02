@@ -5,25 +5,26 @@ import { getKeyValue, TOKEN_DICTIONARY } from './storage.service.js';
 const getIcon = (icon) => {
     switch (icon.slice(0, -1)) {
         case '01':
-            return '☀ ☀ ☀ ☀ ☀ ☀ ☀ ☀';
+            return '☀️ ☀️ ☀️ ☀️ ☀️ ☀️ ☀️ ☀️';
         case '02':
             return '⛅ ⛅ ⛅ ⛅ ⛅ ⛅ ⛅';
         case '03':
-            return '☁ ☁ ☁ ☁ ☁ ☁ ☁ ☁';
+            return '☁️ ☁️ ☁️ ☁️ ☁️ ☁️ ☁️ ☁️';
         case '04':
-            return '☁ ☁ ☁ ☁ ☁ ☁ ☁ ☁';
+            return '☁️ ☁️ ☁️ ☁️ ☁️ ☁️ ☁️ ☁️';
         case '09':
-            return '🌧 🌧 🌧 🌧 🌧 🌧 🌧 🌧 🌧 🌧';
+            return '☔ ☔ ☔ ☔ ☔ ☔ ☔ ☔';
         case '10':
-            return '🌦 🌦 🌦 🌦 🌦 🌦 🌦 🌦 🌦 🌦';
+            return '🌦 🌦 🌦 🌦 🌦 🌦 🌦 🌦';
         case '11':
-            return '🌩 🌩 🌩 🌩 🌩 🌩 🌩 🌩 🌩 🌩';
+            return '⛈ ⛈ ⛈ ⛈ ⛈ ⛈ ⛈ ⛈';
         case '13':
             return '❄ ❄ ❄ ❄ ❄ ❄ ❄ ❄';
         case '50':
-            return '🌫️ 🌫️ 🌫️ 🌫️ 🌫️ 🌫️ 🌫️ 🌫️ 🌫️ 🌫️';
+            return '🌁 🌁 🌁 🌁 🌁 🌁 🌁 🌁 🌁';
     }
 };
+
 
 const getWeather = async (city) => {
     const token = process.env.TOKEN ?? await getKeyValue(TOKEN_DICTIONARY.token);

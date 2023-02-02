@@ -1,6 +1,6 @@
 {
-  "name": "weather-test",
-  "version": "1.0.0",
+  "name": "weather-cli-pr1",
+  "version": "0.1.0",
   "description": "cli for getting weather",
   "main": "index.js",
   "browser": "weather.js",
@@ -21,13 +21,13 @@
   ],
   "author": "Valery Blagodarov",
   "license": "ISC",
-  "homepage": "https://google.by",
+  "homepage": "https://www.linkedin.com/in/vablagodarov",
   "repository": {
     "type": "git",
-    "url": "www.google.by"
+    "url": "https://github.com/BlagodarovVA/Node_course/tree/main/44"
   },
   "bugs": {
-    "url": "https://google.by",
+    "url": "https://blagodarovva.github.io/mypage",
     "email": "11w-walerik@mail.ru"
   },
   "dependencies": {
