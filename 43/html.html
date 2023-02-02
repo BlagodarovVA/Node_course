@@ -1,0 +1,82 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Content warning</title>
+    <link href="http://passthrough.fw-notify.net/static/default.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://passthrough.fw-notify.net/static/default.js"></script>
+  </head>
+  <body onload="checkResize();">
+    <div id="emsg_large"></div>
+    <div id="page">
+      <div id="header">
+        <div><img src="http://passthrough.fw-notify.net/static/topbar_left.png" width="6" height="72" border="0" /></div>
+        <div id="company_logo"><img src="http://passthrough.fw-notify.net/static/logo.png" border="0" /></div>
+        <div id="company_text"><h1 class="orange">ПАК "Цитадель"  https://bevalex.by</h1></div>
+        <div><img src="http://passthrough.fw-notify.net/static/topbar_right.png" width="6" height="72" border="0" /></div>
+      </div>
+      <br class="clearer" />
+
+      <div id="content">
+        <img src="http://passthrough.fw-notify.net/static/warning.png" border="0" align="left" />
+        <h1 class="orange">Content warning</h1>
+
+        <div class="line">
+          <div class="label">While trying to retrieve the URL:</div>
+          <div class="desc">
+            <span>http://api.openweathermap.org/data/2.5/weather?q=minsk%26appid=3bd8452ed65208cac52baa0a97c6ceef%26lang=ru%26units=metric<span>
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="label">The content is warned due to the following condition:</div>
+          <div class="desc">
+            Your organization's Internet access policy suggests you should not be visiting this website. You may proceed to this website at your own discretion. <br>
+
+Данное сообщение может появляться из-за того, что на Вашем рабочем месте не настроены параметры прокси - сервера. Выполните данные настройки самостоятельно, либо обратитесь за помощью к администратору.
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="label">Report:</div>
+          <div class="desc">
+            Restricted Category (Public Information)
+          </div>
+        </div>
+
+        <div class="line">
+          <div class="label">Your cache administrator is:</div>
+          <div class="desc">
+            globba@bevalex.by
+          </div>
+
+          <div id="override">
+            <form action="http://passthrough.fw-notify.net/proceed" method="POST" id="form_warn" name="form_warn">
+              <input type="hidden" name="category" value="108" />
+              <input type="hidden" name="categoryname" value="Public Information" />
+              <input type="hidden" name="return" value="http://api.openweathermap.org/data/2.5/weather?q=minsk%26appid=3bd8452ed65208cac52baa0a97c6ceef%26lang=ru%26units=metric" />
+              <input type="hidden" name="ts" value="1675323819" />
+              <input type="hidden" name="user" value="192.168.58.72" />
+              <input type="hidden" name="token" value="d324cf563991a5485c1876d149c49d975686b964" />
+            </form>
+            <div class="button">
+              <div class="button_left"></div>
+              <div class="button_center">
+                <a class="orange" id="lnk_proceed" onClick="document.getElementById('form_warn').submit();">Proceed</a>
+              </div>
+              <div class="button_right"></div>
+            </div>
+          </div>
+        </div>
+        <br class="clearer" />
+      </div> <!-- END: div#content -->
+      <br class="clearer" />
+
+      <div id="footer">
+        <div><a href="http://www.sophos.com" target="_blank" title="Sophos"><img src="http://passthrough.fw-notify.net/static/footer_left.png" width="136" height="33" border="0" /></a></div>
+        <div class="orange" id="copyright">Powered by UTM Web Protection</div>
+        <div><img src="http://passthrough.fw-notify.net/static/footer_right.png" width="6" height="33" border="0" /></div>
+      </div> <!-- END: div#footer -->
+    </div> <!-- END: div#page -->
+  </body>
+</html>
