@@ -24,6 +24,6 @@ function great(name: string): string {      // типизируется аргу
 
 names.map((x: string) => x);
 
-function coord(coord:{lat: number, long?: number}) {    // long? - свойство не обязательно
+function coord(coord:{lat: number, long?: number}) {    // ? - свойство не обязательно
     
 }
