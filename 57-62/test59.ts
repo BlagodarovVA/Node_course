@@ -1,7 +1,7 @@
 type coord = {lat: number, long: number};
 
 function compute1(coord: coord) {
-    
+    console.log(coord);
 }
 
 
@@ -16,7 +16,7 @@ function compute2(coord: ICoord) {
 
 type ID = number | string;
 
-/*
+
 interface Animal {
     name: string;
 }
@@ -29,10 +29,10 @@ const dog: Dog = {
     name: 'fsgdgwe',
     tail: true
 }
-*/
+
 
 /*
-type Animal= {
+type Animal = {
     name: string;
 }
 
@@ -45,7 +45,7 @@ const dog: Dog = {
     tail: true
 }
 */
-
+/*
 interface Dog {
     name: string;
 }
@@ -58,3 +58,4 @@ const dog: Dog = {
     name: 'sdfgs',
     tail: true
 }
+*/

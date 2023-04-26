@@ -23,8 +23,9 @@ interface IConnection {
 }
 
 function connect(connection: IConnection | "default") {
-
+    console.log(connection);
 }
+
 connect('default');
 
 
